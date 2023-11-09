@@ -1,20 +1,14 @@
-# Wall Sensing 
-Use the ultrasonic distance sensor to sense the wall in front of your robot. Code your robot's behaviors according to the distance to the wall. There are taped markers on the ground to help you better observe your robot's movement. 
+# Wall Following 
+Drive your robot to follow the wall that was used in Project 2 with the help of the [RPlidar A1](https://www.slamtec.ai/home/rplidar_a1/) sensor. 
 
 ## Instructions:
-1. (80%) Complete `wall_sensing.py` perform the following sequential movements. 
+1. (45% **On Raspberry Pi computer**) Scan the distance from your robot to the adjacent wall. Transmit appropriate data to Pico board using serial communication.
+2. (45% **On Pico board**) Read the data transmitted from RPi computer, spin motors with tailored speed (and direction) based on the data. Your robot should move forward while maintain a resonable range to the wall on only one side (either left or right, but not both).  
 
-   Initially, place the robot (distasnce sensor) 0.5 meters away from the wall. By starting your program, the robot should be automatically perform the following sequence.
-   1. Drive forward.
-   2. (20%) Stop when distance from the robot to the wall is equal to or shorter than 0.25 meters.
-   3. Drive backward.
-   4. (20%) Stop when distance from the robot to the wall is equal to or greater than 1 meter.
-   5. Drive forward.
-   6. (20%) Stop when distance from the robot to the wall is equal to or shorter than 0.25 meters.
-   7. Drive backward.
-   8. (20%) Stop when distance from the robot to the wall is equal to or greater than 0.5 meters.
-   
-> Hint: you may need to figure out a way to move your robot in straight lines.
+> Hints:
+> 1. Take a look at the range scan at about +/- 45 degrees.
+> 2. Lidar may not be able to detect anything if wall is closer than 0.3 meters.
+> 3. You can spin motors at different speed and direction.
 
-2. (20%) Upload a video which records the robot's back and forth movement. 
+2. (10%) Upload a video which records **at least 2 cycles** of wall following. 
 
