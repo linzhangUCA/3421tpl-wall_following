@@ -12,5 +12,5 @@ Drive your robot to follow the wall that was used in [Project 2](https://classro
 > 3. You can spin motors at different speed and direction.
 > 4. Distance to wall may different from time to time. Maintain that distance within a reasonable range. 
 
-2. (10%) Upload a video which records **at least 2 cycles** of wall following. 
+2. (10%) Upload a video which records **at least 2 loops** of wall following. 
 
