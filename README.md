@@ -1,5 +1,5 @@
 # Wall Following 
-Drive your robot to follow the wall that was used in Project 2 with the help of the [RPlidar A1](https://www.slamtec.ai/home/rplidar_a1/) sensor. 
+Drive your robot to follow the wall that was used in [Project 2](https://classroom.github.com/a/uu6PHG7i) with the help of the [RPlidar A1](https://www.slamtec.ai/home/rplidar_a1/) sensor. 
 
 ## Instructions:
 1. (45% **On Raspberry Pi computer**) Scan the distance from your robot to the adjacent wall. Transmit appropriate data to Pico board using serial communication.
