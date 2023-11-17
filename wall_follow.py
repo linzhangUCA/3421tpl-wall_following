@@ -1,5 +1,5 @@
 """
-Run this script
+Run this script on pico
 """
 import sys
 import select
